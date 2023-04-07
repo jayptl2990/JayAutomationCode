@@ -8,6 +8,7 @@ public class SecondAutomation {
 		
 		
 		System.out.println("hello foxx");
+		System.out.println("hello bois");
 	}
 
 }
