@@ -1,25 +1,319 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-25T17:17:19 PDT" name="Default suite" finished-at="2023-04-25T17:17:28 PDT" duration-ms="8425">
+  <suite started-at="2023-04-25T18:14:45 PDT" name="Batch Running Test Suite 2023" finished-at="2023-04-25T18:16:28 PDT" duration-ms="103504">
     <groups>
     </groups>
-    <test started-at="2023-04-25T17:17:19 PDT" name="Default test" finished-at="2023-04-25T17:17:28 PDT" duration-ms="8425">
-      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User">
-        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@54a7079e]" started-at="2023-04-25T17:17:19 PDT" name="openTutorialUrl" finished-at="2023-04-25T17:17:26 PDT" duration-ms="6282" status="PASS">
+    <test started-at="2023-04-25T18:14:45 PDT" name="Batch Running Test" finished-at="2023-04-25T18:16:28 PDT" duration-ms="103504">
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout">
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:15:54 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:58 PDT" duration-ms="4312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openTutorialUrl -->
-        <test-method signature="registerNewUser()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@54a7079e]" started-at="2023-04-25T17:17:26 PDT" name="registerNewUser" finished-at="2023-04-25T17:17:28 PDT" duration-ms="2091" status="PASS">
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:15:58 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-04-25T18:16:00 PDT" duration-ms="2275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaypatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jay@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:00 PDT" name="closeUrl" finished-at="2023-04-25T18:16:01 PDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:01 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:16:05 PDT" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:05 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-04-25T18:16:07 PDT" duration-ms="2332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:07 PDT" name="closeUrl" finished-at="2023-04-25T18:16:08 PDT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:08 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:16:12 PDT" duration-ms="4408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:12 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-04-25T18:16:14 PDT" duration-ms="2342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rampatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:14 PDT" name="closeUrl" finished-at="2023-04-25T18:16:14 PDT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:14 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:16:19 PDT" duration-ms="4532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:19 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-04-25T18:16:21 PDT" duration-ms="2265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nik@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:21 PDT" name="closeUrl" finished-at="2023-04-25T18:16:21 PDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:21 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:16:26 PDT" duration-ms="4427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:26 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-04-25T18:16:28 PDT" duration-ms="2327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meetpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meet@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@55a147cc]" started-at="2023-04-25T18:16:28 PDT" name="closeUrl" finished-at="2023-04-25T18:16:28 PDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen">
+        <test-method is-config="true" signature="openRediffUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@4659191b]" started-at="2023-04-25T18:14:45 PDT" name="openRediffUrl" finished-at="2023-04-25T18:14:54 PDT" duration-ms="9056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRediffUrl -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@4659191b]" started-at="2023-04-25T18:14:54 PDT" name="testCase1" data-provider="Rediff" finished-at="2023-04-25T18:15:03 PDT" duration-ms="8847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@4659191b]" started-at="2023-04-25T18:15:03 PDT" name="closeUrl" finished-at="2023-04-25T18:15:03 PDT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openRediffUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@4659191b]" started-at="2023-04-25T18:15:03 PDT" name="openRediffUrl" finished-at="2023-04-25T18:15:08 PDT" duration-ms="5142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRediffUrl -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@4659191b]" started-at="2023-04-25T18:15:08 PDT" name="testCase1" data-provider="Rediff" finished-at="2023-04-25T18:15:16 PDT" duration-ms="7811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Donkey@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@4659191b]" started-at="2023-04-25T18:15:16 PDT" name="closeUrl" finished-at="2023-04-25T18:15:16 PDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User">
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@1a6d8329]" started-at="2023-04-25T18:15:16 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:21 PDT" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="registerNewUser()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@1a6d8329]" started-at="2023-04-25T18:15:21 PDT" name="registerNewUser" finished-at="2023-04-25T18:15:23 PDT" duration-ms="2006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerNewUser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@54a7079e]" started-at="2023-04-25T17:17:28 PDT" name="teardown" finished-at="2023-04-25T17:17:28 PDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@1a6d8329]" started-at="2023-04-25T18:15:23 PDT" name="teardown" finished-at="2023-04-25T18:15:23 PDT" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login">
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:23 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:27 PDT" duration-ms="4407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:27 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-04-25T18:15:29 PDT" duration-ms="1522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaypatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jay@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:29 PDT" name="closeUrl" finished-at="2023-04-25T18:15:29 PDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:29 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:33 PDT" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:33 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-04-25T18:15:35 PDT" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:35 PDT" name="closeUrl" finished-at="2023-04-25T18:15:35 PDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:35 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:40 PDT" duration-ms="4349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:40 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-04-25T18:15:41 PDT" duration-ms="1782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rampatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:41 PDT" name="closeUrl" finished-at="2023-04-25T18:15:41 PDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:41 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:46 PDT" duration-ms="4301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:46 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-04-25T18:15:47 PDT" duration-ms="1606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nik@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:47 PDT" name="closeUrl" finished-at="2023-04-25T18:15:48 PDT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:48 PDT" name="openTutorialUrl" finished-at="2023-04-25T18:15:52 PDT" duration-ms="4509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:52 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-04-25T18:15:54 PDT" duration-ms="1574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meetpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meet@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@1a942c18]" started-at="2023-04-25T18:15:54 PDT" name="closeUrl" finished-at="2023-04-25T18:15:54 PDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login -->
+    </test> <!-- Batch Running Test -->
+  </suite> <!-- Batch Running Test Suite 2023 -->
 </testng-results>

@@ -7,7 +7,7 @@ public class DataProvider_Rediff_Tutorial {
 	@DataProvider(name = "Rediff")
 	public static Object[][] getRediffData() {
 		Object[][] data = { { "seleniumpanda@rediffmail.com", "Selenium@123" },
-				{ "seleniumpanda@rediffmail.com", "Donky@123" } };
+				{ "seleniumpanda1@rediffmail.com", "Donkey@123" } };
 		return data;
 	}
 

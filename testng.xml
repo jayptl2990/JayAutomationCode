@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Batch Running Test Suite 2023">
+  <test  name="Batch Running Test">
+    <classes>
+     <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen"/>
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User"/>
+     <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login"/>
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

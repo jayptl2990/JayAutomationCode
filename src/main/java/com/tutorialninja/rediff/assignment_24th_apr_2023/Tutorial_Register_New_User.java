@@ -41,7 +41,7 @@ public class Tutorial_Register_New_User {
 
 	@AfterMethod
 	public void teardown() {
-		// driver.close();
+		driver.close();
 	}
 
 }
