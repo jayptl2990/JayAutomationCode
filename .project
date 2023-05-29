@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>MavenProject2_J17</name>
+=======
+	<name>NewMavenProject1</name>
+>>>>>>> d5e85764bd0f32949d76aed3c1f5e20f623fc460
 	<comment></comment>
 	<projects>
 	</projects>
