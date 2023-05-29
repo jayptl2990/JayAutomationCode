@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="12" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T18:58:20 PDT" name="Batch Running Test Suite 2023" finished-at="2023-05-28T19:00:59 PDT" duration-ms="159543">
+    <groups>
+    </groups>
+    <test started-at="2023-05-28T18:58:20 PDT" name="Batch Running Test" finished-at="2023-05-28T19:00:59 PDT" duration-ms="159543">
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout">
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T18:59:45 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:50 PDT" duration-ms="4576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T18:59:50 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-05-28T18:59:52 PDT" duration-ms="2415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaypatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jay@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T18:59:52 PDT" name="closeUrl" finished-at="2023-05-28T18:59:53 PDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T18:59:53 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:57 PDT" duration-ms="4575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T18:59:57 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-05-28T19:00:00 PDT" duration-ms="2542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:00 PDT" name="closeUrl" finished-at="2023-05-28T19:00:00 PDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:00 PDT" name="openTutorialUrl" finished-at="2023-05-28T19:00:05 PDT" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:05 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-05-28T19:00:46 PDT" duration-ms="40598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rampatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:46 PDT" name="closeUrl" finished-at="2023-05-28T19:00:46 PDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:46 PDT" name="openTutorialUrl" finished-at="2023-05-28T19:00:50 PDT" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:50 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-05-28T19:00:52 PDT" duration-ms="2384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nik@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:52 PDT" name="closeUrl" finished-at="2023-05-28T19:00:53 PDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:53 PDT" name="openTutorialUrl" finished-at="2023-05-28T19:00:57 PDT" duration-ms="4312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="logUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:57 PDT" name="logUser" data-provider="Tutorial" finished-at="2023-05-28T19:00:59 PDT" duration-ms="2240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meetpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meet@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout@235ecd9f]" started-at="2023-05-28T19:00:59 PDT" name="closeUrl" finished-at="2023-05-28T19:00:59 PDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Logout -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen">
+        <test-method is-config="true" signature="openRediffUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@60099951]" started-at="2023-05-28T18:58:20 PDT" name="openRediffUrl" finished-at="2023-05-28T18:58:37 PDT" duration-ms="17563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRediffUrl -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@60099951]" started-at="2023-05-28T18:58:37 PDT" name="testCase1" data-provider="Rediff" finished-at="2023-05-28T18:58:46 PDT" duration-ms="8241" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c80b30ed313bf876df4cb9a5e0be743, clickElement {id=21BF1628B812E91F0B40DA61AE069282_element_123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\jaypa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62491/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4c80b30ed313bf876df4cb9a5e0be743)] -> xpath: //div[@class= 'pwdpass']/child::em[1]/following::input[1]]
+Session ID: 4c80b30ed313bf876df4cb9a5e0be743]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from no such window
+  (Session info: chrome=113.0.5672.127)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c80b30ed313bf876df4cb9a5e0be743, clickElement {id=21BF1628B812E91F0B40DA61AE069282_element_123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\jaypa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62491/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4c80b30ed313bf876df4cb9a5e0be743)] -> xpath: //div[@class= 'pwdpass']/child::em[1]/following::input[1]]
+Session ID: 4c80b30ed313bf876df4cb9a5e0be743
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen.testCase1(Rediff_LoginScreen.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@60099951]" started-at="2023-05-28T18:58:46 PDT" name="closeUrl" finished-at="2023-05-28T18:58:46 PDT" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openRediffUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@60099951]" started-at="2023-05-28T18:58:46 PDT" name="openRediffUrl" finished-at="2023-05-28T18:58:52 PDT" duration-ms="6080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openRediffUrl -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@60099951]" started-at="2023-05-28T18:58:52 PDT" name="testCase1" data-provider="Rediff" finished-at="2023-05-28T18:59:10 PDT" duration-ms="17401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Donkey@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen@60099951]" started-at="2023-05-28T18:59:10 PDT" name="closeUrl" finished-at="2023-05-28T18:59:10 PDT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login">
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:17 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:22 PDT" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:22 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-05-28T18:59:23 PDT" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaypatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jay@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:23 PDT" name="closeUrl" finished-at="2023-05-28T18:59:24 PDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:24 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:28 PDT" duration-ms="4704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:28 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-05-28T18:59:30 PDT" duration-ms="1699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:30 PDT" name="closeUrl" finished-at="2023-05-28T18:59:30 PDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:30 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:35 PDT" duration-ms="4550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:35 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-05-28T18:59:36 PDT" duration-ms="1738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rampatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ram@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:36 PDT" name="closeUrl" finished-at="2023-05-28T18:59:37 PDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:37 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:41 PDT" duration-ms="4599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:41 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-05-28T18:59:43 PDT" duration-ms="1848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nik@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:43 PDT" name="closeUrl" finished-at="2023-05-28T18:59:43 PDT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:43 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:45 PDT" duration-ms="2204" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=113.0.5672.127) 
+Host info: host: 'LAPTOP-JSAI8PDM', ip: '10.0.0.5'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=113.0.5672.127) 
+Host info: host: 'LAPTOP-JSAI8PDM', ip: '10.0.0.5'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+at com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login.openTutorialUrl(TutorialNinja_Login.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="loginUser(java.lang.String,java.lang.String)[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:45 PDT" name="loginUser" data-provider="Tutorial" finished-at="2023-05-28T18:59:45 PDT" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meetpatel@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meet@1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=113.0.5672.127) 
+Host info: host: 'LAPTOP-JSAI8PDM', ip: '10.0.0.5'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created
+from no such execution context: loader has changed while resolving nodes
+  (Session info: chrome=113.0.5672.127) 
+Host info: host: 'LAPTOP-JSAI8PDM', ip: '10.0.0.5'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+at com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login.openTutorialUrl(TutorialNinja_Login.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login@202b0582]" started-at="2023-05-28T18:59:45 PDT" name="closeUrl" finished-at="2023-05-28T18:59:45 PDT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUrl -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User">
+        <test-method is-config="true" signature="openTutorialUrl()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@3b0fe47a]" started-at="2023-05-28T18:59:10 PDT" name="openTutorialUrl" finished-at="2023-05-28T18:59:15 PDT" duration-ms="4769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialUrl -->
+        <test-method signature="registerNewUser()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@3b0fe47a]" started-at="2023-05-28T18:59:15 PDT" name="registerNewUser" finished-at="2023-05-28T18:59:17 PDT" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User@3b0fe47a]" started-at="2023-05-28T18:59:17 PDT" name="teardown" finished-at="2023-05-28T18:59:17 PDT" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.Tutorial_Register_New_User -->
+    </test> <!-- Batch Running Test -->
+  </suite> <!-- Batch Running Test Suite 2023 -->
+  <suite started-at="2023-05-28T19:00:59 PDT" name="Suite tutorial ninja" finished-at="2023-05-28T19:01:06 PDT" duration-ms="7155">
+    <groups>
+    </groups>
+    <test started-at="2023-05-28T19:00:59 PDT" name="Test Registration tutorialNinja" finished-at="2023-05-28T19:01:06 PDT" duration-ms="7155">
+      <class name="parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja">
+        <test-method signature="registerTutorialNinja(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja@57a78e3]" started-at="2023-05-28T19:00:59 PDT" name="registerTutorialNinja" finished-at="2023-05-28T19:01:06 PDT" duration-ms="7139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[My Account]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Register]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Shiva]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Reddy]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[shiva@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9874562130]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[shiva@123]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[shiva@123]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[agree]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[input.btn.btn-primary]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTutorialNinja -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja@57a78e3]" started-at="2023-05-28T19:01:06 PDT" name="tearDown" finished-at="2023-05-28T19:01:06 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja -->
+    </test> <!-- Test Registration tutorialNinja -->
+  </suite> <!-- Suite tutorial ninja -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite tutoninja]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test tuto(failed)">
+    <parameter name="firstName" value="Shiva"/>
+    <parameter name="lastName" value="Reddy"/>
+    <parameter name="emailAddress" value="shiva@gmail.com"/>
+    <parameter name="linkRegister" value="Register"/>
+    <parameter name="telephoneNumber" value="9874562130"/>
+    <parameter name="initialPassword" value="shiva@123"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="iagree" value="agree"/>
+    <parameter name="confirmPassword" value="shiva@123"/>
+    <parameter name="continueBtn" value="btn btn-primary"/>
+    <parameter name="linkMyAccount" value="My Account"/>
+    <parameter name="url" value="https://tutorialsninja.com/demo"/>
+    <classes>
+      <class name="parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja">
+        <methods>
+          <include name="tearDown"/>
+          <include name="registerTutorialNinja" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja -->
+    </classes>
+  </test> <!-- Test tuto(failed) -->
+</suite> <!-- Failed suite [Suite tutoninja] -->

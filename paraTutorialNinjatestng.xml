@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite tutorial ninja">
+	<test name="Test Registration tutorialNinja">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://tutorialsninja.com/demo"></parameter>
+		<parameter name="linkMyAccount" value="My Account"></parameter>
+		<parameter name="linkRegister" value="Register"></parameter>
+		<parameter name="firstName" value="Shiva"></parameter>
+		<parameter name="lastName" value="Reddy"></parameter>
+		<parameter name="emailAddress" value="shiva@gmail.com"></parameter>
+		<parameter name="telephoneNumber" value="9874562130"></parameter>
+		<parameter name="initialPassword" value="shiva@123"></parameter>
+		<parameter name="confirmPassword" value="shiva@123"></parameter>
+		<parameter name="iagree" value="agree"></parameter>
+		<parameter name="continueBtn" value="input.btn.btn-primary"></parameter>
+		<classes>
+		<class name="parameter_registration_tutorialNinja.Parameter_Register_TutorialNinja" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

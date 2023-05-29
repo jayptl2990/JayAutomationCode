@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch Running Test Suite 2023]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Batch Running Test(failed)" verbose="0">
+    <classes>
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login">
+        <methods>
+          <include name="openTutorialUrl"/>
+          <include name="closeUrl"/>
+          <include name="loginUser"/>
+        </methods>
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.TutorialNinja_Login -->
+      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen">
+        <methods>
+          <include name="testCase1" invocation-numbers="0"/>
+          <include name="openRediffUrl"/>
+          <include name="closeUrl"/>
+        </methods>
+      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen -->
+    </classes>
+  </test> <!-- Batch Running Test(failed) -->
+</suite> <!-- Failed suite [Batch Running Test Suite 2023] -->

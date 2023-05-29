@@ -16,6 +16,7 @@ public class Rediff_LoginScreen {
 	public void openRediffUrl() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.get("https://mail.rediff.com/");
 
 	}

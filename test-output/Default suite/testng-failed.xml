@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen">
+      <class name="DatePicker.DatePicker1">
         <methods>
-          <include name="testCase1" invocation-numbers="0 1"/>
-          <include name="openRediffUrl"/>
-          <include name="closeUrl"/>
+          <include name="seleniumPractiseBlogspotCalendar"/>
         </methods>
-      </class> <!-- com.tutorialninja.rediff.assignment_24th_apr_2023.Rediff_LoginScreen -->
+      </class> <!-- DatePicker.DatePicker1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
